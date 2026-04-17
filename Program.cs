@@ -22,7 +22,7 @@ namespace ClientApp
 
             var socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
-            var ipAddress = IPAddress.Parse("10.1.10.--");
+            var ipAddress = IPAddress.Parse("--.--.--.--");
 
             var port = 27001;
 
